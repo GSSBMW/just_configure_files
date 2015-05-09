@@ -61,7 +61,9 @@ syntax on
 set nowrap
 
 set tabstop=4       "insert 4 spaces for a tab
-"set expandtab      "tab to spaces
+set softtabstop=4
+set shiftwidth=4
+set expandtab      "tab to spaces
 
 set cursorline    "highlight current line
 hi CursorLine cterm=none ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
