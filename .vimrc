@@ -39,7 +39,7 @@ let NERDTreeShowBookmarks = 1
 
 
 "------------------------------------
-"|			Tablist					|
+"|			Taglist					|
 "------------------------------------
 map <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<CR>
 map <silent> <F4> : TlistToggle<CR>
