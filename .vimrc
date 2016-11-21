@@ -70,3 +70,6 @@ hi CursorLine cterm=none ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
 
 set backspace=2
 set encoding=utf-8
+
+nnoremap H gT "switch to previous tab
+nnoremap L gt "switch to next tab
