@@ -65,6 +65,10 @@ install_privoxy_if_needed() {
     return 0
   fi
 
+  if is_macos && command -v brew >/dev/null 2>&1 && brew list --formula privoxy >/dev/null 2>&1; then
+    return 0
+  fi
+
   log "== Install privoxy if needed =="
   if is_macos; then
     if command -v brew >/dev/null 2>&1; then
